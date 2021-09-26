@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		stage("Build Stage') {
+		stage('Build Stage') {
 			steps {
 				git 'https://github.com/jayantachatterjee/myphptest.git'
 			}
